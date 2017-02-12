@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- v7
+- v6
+deploy:
+  provider: npm
+  email: paolo.chiabrera@gmail.com
+  api_key:
+    secure: kQ0Sm27JyK2pqyWUotxaqSmyijnvW6P+kTk5753WQnUv+7ATypg7pSQq+L50pz0zwc/+iqulMTNCb2EoHVuioZ1M45gK0TG8CrJYfdRU4hLYIGRbCnbzh05Gb0+LMv9fDMgW0GqkhGnfWUbpMb7MDrllknXufSmz8XQ0nC1d7B8elUO7j6wjUnKQpyI8V3zCTdwErszR/GNGlJT+NUoYa7OWHRdhFZT2kyW50IvcWBhTFITlwmNG/Ik8WvPmNUKOF2JuGCCq+teShs1JuSNpHh5097QAIazwf+12lxH8+3yN6dBhCjT1Sz6JeZQhHkHO6wJUrailrzfMeCDIW/+hNrov0gm8xtr9aeeZ/OafbJK1+XQJ1KQZmbxKJgBlrUNzWkQC6m2zA8LKBG9PEXHjw8KInyhfZt0jSVc2L39gEBEX+HlHM6e6Q4GgM12dm+8IQd+2ioSMnmhVcvAS8e+e3uEDJvEyh7OWZVSf/yeaFw5l35OMbeswBsJocXVSyLELBLgIqGFPVAStL9nnk7ZCWemiKNdC0kS4/JCrvZUMc3tk2DtRZ/emqcgyYrqz7J9IiixzdlAbKu+BP6CwegpI70WJ4Llbmi7ErFPmcGn2bQRHqjrbPu0OWfTgJufl4YHtDp6jl8bTF4zs7nnpGS+Z80wQUl53Zj/DJL7Khk3uExY=
+  on:
+    tags: true
+    node: v6
+    repo: paolo-chiabrera/hapi-response-helper
